@@ -91,6 +91,19 @@ window.USEFUL_TOOLS = [
     "badge": ""
   },
   {
+    "id": "blokblok",
+    "name": "BlokBlok",
+    "repo": "blokblok",
+    "cat": "Fun",
+    "tag": "Game",
+    "d": "A colourful falling-block puzzle game. Stack, rotate and clear lines — 20 themes, chiptune music, keyboard or touch.",
+    "c": "#0b0f1a",
+    "on": "#5ee7ff",
+    "dot": "#5effa1",
+    "added": "2026-11-20",
+    "badge": ""
+  },
+  {
     "id": "choirarranger",
     "name": "Choir Arranger",
     "repo": "choirarranger",

@@ -18,7 +18,7 @@ window.USEFUL_TOOLS = [
     "repo": "mypdf",
     "cat": "Docs & Dev",
     "tag": "Documents",
-    "d": "Merge, split, sign and convert PDFs and images. Every file is processed on your device — nothing is uploaded.",
+    "d": "PDF to Word, Word, Excel and PowerPoint to PDF, merge, split, compress, number and sign. Every file stays on your device.",
     "c": "#05060f",
     "on": "#e8ecff",
     "dot": "#8b5cf6",

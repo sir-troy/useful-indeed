@@ -122,7 +122,7 @@ window.USEFUL_TOOLS = [
     "repo": "choirtrainer",
     "cat": "Music & Focus",
     "tag": "Singing",
-    "d": "Find your voice type, sing in tune with live pitch feedback, read the grand staff and practise S A T B parts.",
+    "d": "A detailed voice type test, live pitch feedback, hand signs, the grand staff, S A T B harmony, 30 songs or your own MIDI, and a certificate.",
     "c": "#1e2350",
     "on": "#f7c948",
     "dot": "#ff8a2a",

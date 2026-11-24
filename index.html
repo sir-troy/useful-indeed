@@ -193,6 +193,30 @@
   footer .big img{width:.62em;height:.62em;margin-bottom:.08em}
   footer a{text-decoration:none;border-bottom:1px dashed}
 
+  .dir{display:grid;grid-template-columns:.9fr 1.3fr;gap:50px;padding:80px 0 10px;align-items:start}
+  .dir h2{font-family:var(--serif);font-weight:400;font-size:52px;line-height:1;letter-spacing:-.02em}
+  .dir h2 i{color:var(--muted)}
+  .dir h2 small{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:16px}
+  .dir-cat{border-top:1.5px solid var(--ink);padding:18px 0 14px}
+  .dir-cat h3{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.1}
+  .dir-cat>p{color:#3a342a;margin:4px 0 6px}
+  .dir-cat ul{list-style:none;margin:0;padding:0}
+  .dir-cat li{padding:10px 0;border-bottom:1px dashed var(--line)}
+  .dir-cat li:last-child{border-bottom:0}
+  .dir-cat li a{color:var(--ink);font-weight:600;text-decoration:none;box-shadow:inset 0 -6px 0 var(--hi)}
+  .dir-cat li a:hover{box-shadow:inset 0 -1.2em 0 var(--hi)}
+  .dir-cat li span{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-left:10px}
+  .dir-cat li p{color:#3a342a;margin-top:3px}
+  .dir-text p{color:#3a342a;padding:16px 0;border-top:1.5px solid var(--ink)}
+  .dir-text p b{display:block;font-family:var(--serif);font-weight:400;font-size:27px;line-height:1.15;color:var(--ink);margin-bottom:6px}
+  .faq details{border-top:1.5px solid var(--ink);padding:14px 0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:25px;line-height:1.2;list-style:none;display:flex;justify-content:space-between;gap:14px}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";font-family:var(--mono);font-size:20px;color:var(--muted)}
+  .faq details[open] summary::after{content:"–"}
+  .faq details p{color:#3a342a;margin-top:8px}
+  .faq a{color:var(--ink)}
+  @media (max-width:900px){.dir{grid-template-columns:1fr;gap:24px;padding-top:60px}.dir h2{font-size:42px}}
   @media (max-width:900px){
     .hero{grid-template-columns:1fr;padding-top:40px}
     .jar{max-width:300px}
@@ -278,6 +302,34 @@
       <div class="pt"><span>ii.</span><div><b>I use these every day, so I made my own.</b><p>PDFs, savings, loans, test data, focus time — these are things I need daily. So I built small versions that run entirely in the browser. Nothing gets uploaded, so there’s nothing to retain.</p></div></div>
       <div class="pt"><span>iii.</span><div><b>Made for me, shared with you — why not?</b><p>These started as tools for my own use. But if they’re useful to me, they might be useful to you too. Free, no sign-up, and your data stays yours.</p></div></div>
       <div class="sig">— Sir Troy<small>maker of useful-indeed</small></div>
+    </div>
+  </section>
+
+  <section class="dir" id="all-tools">
+    <h2 class="rv">Every tool,<br><i>at a glance</i><small>grouped by what they help with</small></h2>
+    <div class="dir-list" id="dirList"><section class="dir-cat"><h3>Docs &amp; Dev</h3><p>For files, code and data at work.</p><ul><li><a href="https://mypdf.useful-indeed.com/">myPDF</a><span>Documents</span><p>PDF to Word, Word, Excel and PowerPoint to PDF, merge, split, compress, number and sign. Every file stays on your device.</p></li><li><a href="https://codeformatter.useful-indeed.com/">Code Formatter</a><span>Developers</span><p>Format, minify and validate 46 languages — JSON to SQL to Go — with exact error positions. All in the browser.</p></li><li><a href="https://sqlplayground.useful-indeed.com/">SQL Playground</a><span>SQL</span><p>Write and run SQL right in your browser — 7 dialects, sample databases, import and export. Nothing to install.</p></li><li><a href="https://randomdata.useful-indeed.com/">Random Data Generator</a><span>Test data</span><p>Generate realistic sample CSVs — up to 10 million rows — with Unique, Required and Key rules. Clean or messy.</p></li><li><a href="https://keytester.useful-indeed.com/">Keyboard &amp; Mouse Tester</a><span>Hardware</span><p>Press every key and click every button. Spot dead keys, ghosting, key chatter, double-click faults and your mouse polling rate.</p></li></ul></section><section class="dir-cat"><h3>Money</h3><p>Plan your savings and check a loan before you sign. Made with the Philippines in mind.</p><ul><li><a href="https://mp2calculator.useful-indeed.com/">MP2 Calculator</a><span>Savings</span><p>See how your Pag-IBIG MP2 savings could grow in 5 years. Monthly or custom deposits, in English and Tagalog.</p></li><li><a href="https://beforeyouloan.useful-indeed.com/">Before You Loan</a><span>Loans</span><p>Know the true cost of a loan before you sign — total payable, real interest rate, budget impact and late-payment what-ifs.</p></li></ul></section><section class="dir-cat"><h3>Fun</h3><p>Quick breaks, raffles and games.</p><ul><li><a href="https://hmmmeme.useful-indeed.com/">hmmmMeme</a><span>Memes</span><p>One click, one random meme. Then another. Then another. Endless, free, zero effort.</p></li><li><a href="https://hmmmeme-ph.useful-indeed.com/">hmmmMeme PH</a><span>Pinoy memes</span><p>Random Pinoy memes, isang click lang. Para sa mga break time na kailangan ng tawa.</p></li><li><a href="https://fairspin.useful-indeed.com/">FairSpin</a><span>Raffles</span><p>A truly fair name wheel for raffles, giveaways, and deciding who goes first. Big, bright and 3D.</p></li><li><a href="https://blokblok.useful-indeed.com/">BlokBlok</a><span>Game</span><p>A colourful falling-block puzzle game. Stack, rotate and clear lines — 20 themes, chiptune music, keyboard or touch.</p></li></ul></section><section class="dir-cat"><h3>Music &amp; Focus</h3><p>For choirs, singers and deep work.</p><ul><li><a href="https://choirarranger.useful-indeed.com/">Choir Arranger</a><span>Music</span><p>Balanced choir lineups, visual seat plans and printable sign-off sheets for performances and worship services.</p></li><li><a href="https://choirtrainer.useful-indeed.com/">Choir Voice Trainer</a><span>Singing</span><p>A detailed voice type test, live pitch feedback, hand signs, the grand staff, S A T B harmony, 30 songs or your own MIDI, and a certificate.</p></li><li><a href="https://stilldusk.useful-indeed.com/">Stilldusk</a><span>Focus</span><p>A calm, dusk-coloured focus timer for deep work sessions — with soundscapes, atmospheres and rhythm.</p></li></ul></section><section class="dir-cat"><h3>Business</h3><p>Software for small businesses.</p><ul><li><a href="https://pa-pic.useful-indeed.com/">Pa-pic</a><span>Photobooth · ₱499</span><p>Photobooth software for event businesses: 30 templates, 20 themes, HD prints and one-click printing. Try the live demo free.</p></li></ul></section></div>
+  </section>
+
+  <section class="dir" id="how">
+    <h2 class="rv">How the<br><i>tools work</i><small>the short version</small></h2>
+    <div class="dir-text rv" style="--dl:.1s">
+      <p><b>Everything happens on your device.</b> When you open a PDF, paste code or type in your loan details, the work is done by JavaScript inside your browser tab. The page doesn't send your files or numbers to a server, so there is nothing for anyone to keep, sell or leak.</p>
+      <p><b>Some tools remember your settings.</b> A few tools save things like your theme, your query tabs or your progress in your browser's local storage, so they're still there next time. That data stays in your browser, and clearing your browser data removes it.</p>
+      <p><b>One tool, one address.</b> Each tool lives on its own subdomain, like mypdf.useful-indeed.com, with its own design. Bookmark the ones you use and they open straight to the tool.</p>
+      <p><b>How it stays free.</b> Pages may show ads from Google AdSense, and some people chip in on Ko-fi. Ads are kept separate from the tools and never see what you type or upload.</p>
+    </div>
+  </section>
+
+  <section class="dir" id="faq">
+    <h2 class="rv">Questions,<br><i>answered</i><small>frequently asked</small></h2>
+    <div class="faq rv" style="--dl:.1s">
+      <details><summary>Are the tools really free?</summary><p>Yes. There are no trials, no premium plans and no limits hidden behind a sign-up. The only exception is Pa-pic, photobooth software for event businesses, which is a one-time purchase.</p></details>
+      <details><summary>Do I need to create an account?</summary><p>No. Open a tool and start using it. None of the tools ask for an email or a password.</p></details>
+      <details><summary>Are my files uploaded anywhere?</summary><p>No. Files and text you use in a tool are processed in your browser and never leave your device. The only time something is sent is when you choose to send a message through a Contact page.</p></details>
+      <details><summary>Which browsers work?</summary><p>Any recent version of Chrome, Edge, Firefox or Safari. Tools that use the microphone, like Choir Voice Trainer, work best in Chrome, Edge or Safari.</p></details>
+      <details><summary>Do the tools work on phones?</summary><p>Most of them do, and the pages adjust to small screens. A few, like the Keyboard &amp; Mouse Tester and SQL Playground, are easier to use on a computer.</p></details>
+      <details><summary>Can I suggest a tool or report a bug?</summary><p>Yes, please do. Use the <a href="contact.html">Contact page</a>. Every tool also has a version log in its footer that shows what changed and when.</p></details>
+      <details><summary>Who makes useful-indeed?</summary><p>Sir Troy, who builds these tools for his own work and shares them for free. Read more on the <a href="about.html">About page</a>.</p></details>
     </div>
   </section>
 

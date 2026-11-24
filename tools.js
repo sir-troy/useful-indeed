@@ -180,5 +180,31 @@ window.USEFUL_TOOLS = [
     "dot": "#a594ff",
     "added": "2026-11-17",
     "badge": ""
+  },
+  {
+    "id": "keytester",
+    "name": "Keyboard & Mouse Tester",
+    "repo": "keytester",
+    "cat": "Docs & Dev",
+    "tag": "Hardware",
+    "d": "Press every key and click every button. Spot dead keys, ghosting, key chatter, double-click faults and your mouse polling rate.",
+    "c": "#171d24",
+    "on": "#ff9d2e",
+    "dot": "#3cc79b",
+    "added": "2026-11-23",
+    "badge": ""
+  },
+  {
+    "id": "pa-pic",
+    "name": "Pa-pic",
+    "repo": "pa-pic",
+    "cat": "Business",
+    "tag": "Photobooth · ₱999",
+    "d": "Photobooth software for event businesses: 30 templates, 20 themes, HD prints and one-click printing. Try the live demo free.",
+    "c": "#2b1637",
+    "on": "#ffb800",
+    "dot": "#ff3d7f",
+    "added": "2026-11-24",
+    "badge": ""
   }
 ];

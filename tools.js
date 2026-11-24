@@ -199,7 +199,7 @@ window.USEFUL_TOOLS = [
     "name": "Pa-pic",
     "repo": "pa-pic",
     "cat": "Business",
-    "tag": "Photobooth · ₱999",
+    "tag": "Photobooth · ₱499",
     "d": "Photobooth software for event businesses: 30 templates, 20 themes, HD prints and one-click printing. Try the live demo free.",
     "c": "#2b1637",
     "on": "#ffb800",

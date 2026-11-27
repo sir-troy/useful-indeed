@@ -206,5 +206,44 @@ window.USEFUL_TOOLS = [
     "dot": "#ff3d7f",
     "added": "2026-11-24",
     "badge": ""
+  },
+  {
+    "id": "cronbuilder",
+    "name": "Cron Expression Builder",
+    "repo": "cronbuilder",
+    "cat": "Docs & Dev",
+    "tag": "Developer",
+    "d": "Build a cron schedule with clicks, read it in plain English and see the next run times in any time zone.",
+    "c": "#2747d4",
+    "on": "#e8ecfd",
+    "dot": "#8fa3ff",
+    "added": "2026-11-27",
+    "badge": "New"
+  },
+  {
+    "id": "suitstudio",
+    "name": "Suit & Tie Studio",
+    "repo": "suitstudio",
+    "cat": "Fun",
+    "tag": "Style",
+    "d": "Design a suit and tie on a 3D model of your body. Colours that flatter you, a fit guide and a PDF shopping list.",
+    "c": "#111318",
+    "on": "#e2c58c",
+    "dot": "#c9a464",
+    "added": "2026-11-27",
+    "badge": "New"
+  },
+  {
+    "id": "crosshairlab",
+    "name": "Crosshair Lab",
+    "repo": "crosshairlab",
+    "cat": "Fun",
+    "tag": "Gaming",
+    "d": "Test a Valorant crosshair in a live firing range, browse 200 presets and copy the profile code into the game.",
+    "c": "#11151b",
+    "on": "#ffa23d",
+    "dot": "#ffa23d",
+    "added": "2026-11-27",
+    "badge": "New"
   }
 ];

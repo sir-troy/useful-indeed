@@ -303,7 +303,11 @@
 
 <script>
 (()=>{
-const TOOLS=(window.USEFUL_TOOLS||[]).filter(t=>t&&t.id);
+// "New" sticker: shown automatically for 2 months after a tool's "added" date, then it disappears.
+// A badge set by hand in tools.js (e.g. "Updated") always wins.
+const NEW_MONTHS=2;
+const isNew=d=>{const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(d||"");if(!m)return false;const end=new Date(+m[1],+m[2]-1+NEW_MONTHS,+m[3]);return new Date()<end;};
+const TOOLS=(window.USEFUL_TOOLS||[]).filter(t=>t&&t.id).map(t=>({...t,badge:t.badge||(isNew(t.added)?"New":"")}));
 const LOG=(window.USEFUL_VERSION_LOG||{entries:[]}).entries||[];
 const N=TOOLS.length;
 const url=t=>t.href||`https://${t.id}.useful-indeed.com`;

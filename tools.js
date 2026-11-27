@@ -9,7 +9,9 @@
    cat    → filter group (new names create new filter buttons)
    c / on → card colour on hover / text colour on that card
    dot    → its dot in the jar
-   badge  → optional sticker on the card, e.g. "New" or "Updated"
+   added  → release date (YYYY-MM-DD). The card shows a "New" sticker
+            automatically for 2 months after this date.
+   badge  → optional sticker set by hand, e.g. "Updated" (overrides "New")
    =================================================================== */
 window.USEFUL_TOOLS = [
   {
@@ -218,7 +220,7 @@ window.USEFUL_TOOLS = [
     "on": "#e8ecfd",
     "dot": "#8fa3ff",
     "added": "2026-11-27",
-    "badge": "New"
+    "badge": ""
   },
   {
     "id": "suitstudio",
@@ -231,7 +233,7 @@ window.USEFUL_TOOLS = [
     "on": "#e2c58c",
     "dot": "#c9a464",
     "added": "2026-11-27",
-    "badge": "New"
+    "badge": ""
   },
   {
     "id": "crosshairlab",
@@ -244,6 +246,6 @@ window.USEFUL_TOOLS = [
     "on": "#ffa23d",
     "dot": "#ffa23d",
     "added": "2026-11-27",
-    "badge": "New"
+    "badge": ""
   }
 ];
